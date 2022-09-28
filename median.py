@@ -13,7 +13,7 @@ while True:
 if(len(numbers) % 2 == 0):
 	index1 = len(numbers)/2
 	index2 = index1 - 1
-	E_median = numbers[int(index1)] + number[int(index2)]/2
+	E_median = (numbers[int(index1)] + numbers[int(index2)])/2
 	print(E_median)
 else:
 	index1 = len(numbers)/2
