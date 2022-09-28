@@ -10,7 +10,7 @@ while True:
     else:
         break
 
-if(len(numbers) % = 0):
+if(len(numbers) % 2 == 0):
 	index1 = len(numbers)/2
 	index2 = index1 - 1
 	E_median = numbers[int(index1)] + number[int(index2)]/2
