@@ -19,4 +19,3 @@ else:
 	index1 = len(numbers)/2
 	O_median = numbers[int(index1)]
 	print(O_median)
-print(numbers)
