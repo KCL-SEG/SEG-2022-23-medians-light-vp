@@ -9,7 +9,7 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-
+numbers.sort()
 if(len(numbers) % 2 == 0):
 	index1 = len(numbers)/2
 	index2 = index1 - 1
