@@ -9,4 +9,14 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
+
+if(len(numbers) % == 0):
+	index1 = len(numbers)/2
+	index2 = index1 - 1
+	E_median = numbers[int(index1)] + number[int(index2)]/2
+	print(E_median)
+else:
+	index1 = len(numbers)/2
+	O_median = numbers[int(index1)]
+	print(O_median)
 print(numbers)
